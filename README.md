@@ -1,6 +1,3 @@
-Got it — here’s a **modular, compact, 5-project structured README** with clear separation and strong PySpark focus 👇
-
----
 
 # 🚀 PySpark & Scalable ML Projects
 
@@ -192,9 +189,3 @@ llm.invoke("What is machine learning")
 * Combining Spark + ML + LLMs creates high-impact systems
 * Strong foundation across **Data Engineering + AI + ML stack**
 
----
-
-If you want next:
-
-* I can turn this into a **very strong resume project section (top-tier ATS ready)**
-* Or a **clean GitHub portfolio with diagrams + architecture visuals**
