@@ -1,191 +1,65 @@
 
-# 🚀 PySpark & Scalable ML Projects
+## Overview
 
-## 📌 Overview
+This repository contains 5 projects demonstrating machine learning, distributed data processing, and generative AI workflows using PySpark and modern AI tools.
 
-This repository contains **5 projects** demonstrating **distributed data processing, machine learning, and AI integration**, with a strong focus on **PySpark-based scalable pipelines**.
+Projects included:
 
----
-
-## ⚙️ Tech Stack
-
-PySpark • Spark MLlib • Python • Pandas • Matplotlib • TensorFlow • PyTorch • NLP • LangChain • HuggingFace
-
----
-
-# 📂 Projects
-
-## 1. K-Means Clustering using PySpark
-
-### Objective
-
-* Perform clustering on automobile dataset using distributed processing
-
-### Key Implementation
-
-* RDD-based data ingestion and transformation
-* Feature engineering using broadcast variables
-* Vectorization using MLlib
-* KMeans clustering (k=3)
-
-```python
-kmeans = KMeans(k=3, seed=1)
-model = kmeans.fit(autoDF)
-```
-
-### Concepts Used
-
-* RDD → DataFrame pipeline
-* Distributed scaling
-* MLlib clustering
+* Random Forest
+* Decision Tree
+* Linear Regression
+* K-Means Clustering
+* LLM Integration using LangChain + HuggingFace
 
 ---
 
-## 2. Predictive Maintenance (ML)
+## Tech Stack
 
-### Objective
-
-* Predict machine condition using sensor data
-
-### Key Implementation
-
-* Feature preprocessing + scaling
-* Random Forest model training
-* Model evaluation using classification metrics
-
-### Concepts Used
-
-* Supervised learning
-* Feature importance
-* Industrial ML use-case
+PySpark, Spark MLlib, Python, RDD, DataFrame API, LangChain, HuggingFace, Transformers
 
 ---
 
-## 3. Image Classification (CNN)
+## Projects
 
-### Objective
+### 1. Random Forest
 
-* Classify images using deep learning (CIFAR-10)
+* Built a classification pipeline to predict customer campaign response.
+* Used feature engineering, PCA, and Random Forest classification.
+* Demonstrates distributed classification workflow using PySpark.
 
-### Key Implementation
+### 2. Decision Tree
 
-* CNN architecture using TensorFlow/Keras
-* Image normalization + training pipeline
-* Accuracy evaluation and prediction
+* Built a multiclass classification model on the Iris dataset.
+* Used StringIndexer, feature vectors, and Decision Tree classification.
+* Demonstrates tree-based supervised learning in PySpark.
 
-### Concepts Used
+### 3. Linear Regression
 
-* Computer Vision
-* Deep Learning (CNN)
-* Model evaluation
+* Built a regression model to predict vehicle fuel efficiency (MPG).
+* Used feature selection, missing value handling, and Linear Regression.
+* Demonstrates continuous target prediction using Spark MLlib.
 
----
+### 4. K-Means Clustering
 
-## 4. Sentiment Analysis (NLP)
+* Built an unsupervised clustering pipeline for automobile data segmentation.
+* Used scaling, vectorization, and K-Means clustering.
+* Demonstrates cluster-based learning using distributed processing.
 
-### Objective
+### 5. LLM Integration
 
-* Classify tweet sentiment (Positive/Negative/Neutral)
-
-### Key Implementation
-
-* Text preprocessing (tokenization, stemming)
-* Feature extraction using n-grams
-* Models: Logistic Regression, SVM
-
-### Concepts Used
-
-* NLP pipeline
-* Text vectorization
-* Classification
+* Integrated HuggingFace-hosted Mistral models using LangChain.
+* Built prompt-based inference workflows using PromptTemplate and LLMChain.
+* Demonstrates practical generative AI pipeline integration.
 
 ---
 
-## 5. GPT Language Model (From Scratch)
+## Key Learnings
 
-### Objective
+* Distributed data processing using PySpark
+* Supervised learning: classification and regression
+* Unsupervised learning using clustering
+* Feature engineering and transformation pipelines
+* Generative AI orchestration using LangChain and HuggingFace
 
-* Build transformer-based language model using PyTorch
-
-### Key Implementation
-
-* Character-level tokenization
-* Self-attention + transformer blocks
-* Text generation pipeline
-
-### Concepts Used
-
-* Transformers
-* Sequence modeling
-* Generative AI
-
----
-
-# 🔗 Additional Module: LLM Integration
-
-### Implementation
-
-* HuggingFace + LangChain integration
-* Prompt engineering + inference pipelines
-
-```python
-llm.invoke("What is machine learning")
-```
-
----
-
-# 🧠 Core Skills Demonstrated
-
-### PySpark & Big Data
-
-* RDD transformations (`map`, `filter`)
-* DataFrame operations
-* Broadcast variables
-* Distributed feature engineering
-* MLlib model training
-
-### Machine Learning
-
-* Supervised + Unsupervised models
-* Feature engineering + scaling
-* Model evaluation
-
-### Deep Learning & AI
-
-* CNN (Computer Vision)
-* Transformers (LLMs)
-* NLP pipelines
-
----
-
-# 📊 Outcomes
-
-* Built scalable data pipelines using PySpark
-* Implemented distributed + local ML workflows
-* Integrated traditional ML with modern AI systems
-
----
-
-# 📁 Files Reference
-
-* PySpark Clustering → 
-* Extended PySpark Pipeline → 
-* LLM Integration → 
-
----
-
-# 🚀 Future Scope
-
-* Spark Streaming (real-time pipelines)
-* ML Pipeline API (end-to-end workflows)
-* Cloud deployment (Databricks / AWS EMR)
-* Model serving APIs
-
----
-
-# 🧩 Key Takeaways
-
-* PySpark enables scalable and production-grade ML pipelines
-* Combining Spark + ML + LLMs creates high-impact systems
-* Strong foundation across **Data Engineering + AI + ML stack**
+thanks :)
 
