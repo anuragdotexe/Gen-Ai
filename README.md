@@ -15,7 +15,7 @@ Projects included:
 
 ## Tech Stack
 
-PySpark, Spark MLlib, Python, RDD, DataFrame API, LangChain, HuggingFace, Transformers
+PySpark, Spark MLlib, Python, RDD, DataFrame API, LangChain, HuggingFace, Transformers , LLM
 
 ---
 
@@ -61,5 +61,5 @@ PySpark, Spark MLlib, Python, RDD, DataFrame API, LangChain, HuggingFace, Transf
 * Feature engineering and transformation pipelines
 * Generative AI orchestration using LangChain and HuggingFace
 
-thanks :)
+thanks and keep working :)
 
