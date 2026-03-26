@@ -1,5 +1,5 @@
 
-## Overview
+## Overview of the project
 
 This repository contains 5 projects demonstrating machine learning, distributed data processing, and generative AI workflows using PySpark and modern AI tools.
 
@@ -61,5 +61,5 @@ PySpark, Spark MLlib, Python, RDD, DataFrame API, LangChain, HuggingFace, Transf
 * Feature engineering and transformation pipelines
 * Generative AI orchestration using LangChain and HuggingFace
 
-thanks and keep working :)
+thanks and keep working  :)
 
