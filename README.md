@@ -1,4 +1,3 @@
-## some personal favourite project 
 ## Overview of the project
 
 This repository contains 5 projects demonstrating machine learning, distributed data processing, and generative AI workflows using PySpark and modern AI tools.
